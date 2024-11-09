@@ -1,0 +1,8 @@
+// /create your own map
+$custom-colors: (
+  "principal": rgb(128, 54, 54),
+  "secundario": rgb(76, 153, 56)
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
