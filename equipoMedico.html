@@ -18,36 +18,39 @@
 <body>
     <!-- INICIO NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light fw-bold">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img class="LogoMaktub" src="./assets/img/LOGO-Centro-Medico-Maktub.png"
-                    alt="Logo_Centro_Medico_Maktub" width="200" height="auto"> Centro Medico Maktub</a>
+        <div class="navbar__containerbox container-fluid">
+            <a class="navbar__brand" href="#">
+                <img class="navbar__logo" src="./assets/img/LOGO-Centro-Medico-Maktub.png"
+                    alt="Logo_Centro_Medico_Maktub" width="200" height="auto"> Centro Medico Maktub
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <div class="navbar__menubox collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar__list navbar-nav ms-auto">
+                    <li class="navbar__item nav-item">
+                        <a class="navbar__link navbar__link--active nav-link active" aria-current="page"
+                            href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="equipoMedico.html">Equipo Medico</a>
+                    <li class="navbar__item nav-item">
+                        <a class="navbar__link nav-link" href="equipoMedico.html">Equipo Medico</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    <li class="navbar__item nav-item">
+                        <a class="navbar__link nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-primary">Reserva tu cita</button>
+                <button type="button" class="button btn btn-outline-primary">Reserva tu cita</button>
             </div>
         </div>
     </nav>
     <!-- FIN NAVBAR -->
 
     <!-- INICIO PRESENTACION -->
-    <section class="container">
-        <div class="text-center">
-            <H1>Conoce nuestro equipo Medico</H1>
-            <p>"Nuestro equipo médico está compuesto por profesionales altamente calificados y comprometidos con la
+    <section class="presentation__containercontainer">
+        <div class="presentation__box-text text-center">
+            <H1 class="presentation__title">Conoce nuestro equipo Medico</H1>
+            <p class="presentation__text">"Nuestro equipo médico está compuesto por profesionales altamente calificados y comprometidos con la
                 salud y el bienestar de nuestros pacientes. Con años de experiencia en diversas especialidades, trabajan
                 juntos para ofrecer una atención integral y personalizada. Cada uno de nuestros médicos se dedica a
                 proporcionar diagnósticos precisos, tratamientos efectivos y un trato humano, asegurando que cada
@@ -59,10 +62,10 @@
                 <div class="col-lg-6 col-12 mb-4">
                     <div class="card">
                         <img src="./assets/img/img_doctor1.jpg" class="card-img-top" alt="doctor_Roberto_Gonzalez" />
-                        <div class="card-body">
+                        <div class="card__body card-body">
                             <h3>Dr. Roberto González</h3>
                             <h5>Especialidad: Cardiología</h5>
-                            <p class="card-text">El Dr. González es cardiólogo con especialización en enfermedades del
+                            <p class="card__text card-text">El Dr. González es cardiólogo con especialización en enfermedades del
                                 corazón y sistema circulatorio. Con un enfoque moderno y tecnología de punta, su
                                 objetivo es prevenir, diagnosticar y tratar afecciones cardíacas, promoviendo la salud
                                 cardiovascular de sus pacientes.</p>
@@ -72,10 +75,10 @@
                 <div class="col-lg-6 col-12 mb-4">
                     <div class="card">
                         <img src="./assets/img/img_doctor2.jpg" class="card-img-top" alt="doctora_Laura_Fernandez">
-                        <div class="card-body">
+                        <div class="card__body card-body">
                             <h3>Dra. Laura Fernández</h3>
                             <h5>Especialidad: Medicina Interna</h5>
-                            <p class="card-text">La Dra. Fernández es una experta en el diagnóstico y tratamiento de
+                            <p class="card__text card-text">La Dra. Fernández es una experta en el diagnóstico y tratamiento de
                                 enfermedades crónicas y complejas. Con más de 15 años de experiencia, se dedica a
                                 mejorar la calidad de vida de sus pacientes mediante un enfoque integral y
                                 personalizado, asegurando un cuidado continuo y preventivo.</p>
@@ -87,10 +90,10 @@
                 <div class="col-lg-6 col-12 mb-4">
                     <div class="card">
                         <img src="./assets/img/img_doctor4.jpg" class="card-img-top" alt="doctora_Carolina_Martinez">
-                        <div class="card-body">
+                        <div class="card__body card-body">
                             <h3>Dra. Carolina Martínez</h3>
                             <h5>Especialidad: Pediatría</h5>
-                            <p class="card-text">La Dra. Martínez se especializa en el cuidado integral de niños desde
+                            <p class="card__text card-text">La Dra. Martínez se especializa en el cuidado integral de niños desde
                                 su nacimiento hasta la adolescencia. Con un enfoque amable y cercano, asegura el
                                 bienestar físico y emocional de los más pequeños, ofreciendo desde revisiones rutinarias
                                 hasta tratamientos para enfermedades infantiles.</p>
@@ -100,10 +103,10 @@
                 <div class="col-lg-6 col-12 mb-4">
                     <div class="card">
                         <img src="./assets/img/img_doctor3.jpg" class="card-img-top" alt="doctor_Juan_Perez">
-                        <div class="card-body">
+                        <div class="card__body card-body">
                             <h3>Dr. Juan Pérez</h3>
                             <h5>Especialidad: Traumatología y Ortopedia</h5>
-                            <p class="card-text">El Dr. Pérez es experto en el diagnóstico y tratamiento de lesiones
+                            <p class="card__text card-text">El Dr. Pérez es experto en el diagnóstico y tratamiento de lesiones
                                 musculoesqueléticas. Con más de 10 años de experiencia en cirugía ortopédica, se enfoca
                                 en ofrecer soluciones efectivas a pacientes con fracturas, esguinces y problemas
                                 articulares para una pronta recuperación.</p>
@@ -118,49 +121,62 @@
     <hr>
     <!-- INICIO FOOTER -->
     <footer>
-        <div class="container">
+        <div class="footer__container container">
             <div class="row">
-                <div class="col-6 col-bg-12">
-                    <h2 class="pb-4">Contacto</h2>
-                    <ul>
-                        <li><i class="font_icon fa-solid fa-phone py-2 mx-2"></i>Teléfono: +569 xxxx xxxx</li>
-                        <li><i class="font_icon fa-regular fa-envelope py-2 mx-2"></i>Email: contacto@maktub.cl</li>
-                        <li><i class="font_icon fa-solid fa-phone py-2 mx-2"></i>Dirección: Av. XXX 123, Concepción,
+                <div class="footer__section col-6 col-bg-12">
+                    <h2 class="footer__title pb-4">Contacto</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Teléfono: +569 xxxx xxxx
+                        </li>
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-regular fa-envelope py-2 mx-2"></i>Email:
+                            contacto@maktub.cl</li>
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Dirección: Av. XXX 123,
+                            Concepción,
                             Chile</li>
-                        <li><i class="font_icon fa-solid fa-stopwatch py-2 mx-2"></i>Atención: Lunes a Viernes de
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-solid fa-stopwatch py-2 mx-2"></i>Atención: Lunes a
+                            Viernes de
                             8:00 a 20:00.</li>
-                        <li><i class="font_icon fa-solid fa-globe py-2 mx-2"></i>Sitio web: www.centromaktub.cl</li>
+                        <li class="footer__item"><i class="footer_icon font_icon fa-solid fa-globe py-2 mx-2"></i>Sitio
+                            web: www.centromaktub.cl</li>
                     </ul>
                 </div>
-                <div class="col-6 col-bg-12">
+                <div class="footer__section col-6 col-bg-12">
                     <div>
                         <h2>
                             Enlaces a:
                         </h2>
                         <ul>
-                            <li><a href="index.html" class="">Inicio</a></li>
-                            <li><a href="equipoMedico.html" class="">Equipo Medico</a></li>
-                            <li><a href="contacto.html" class="">Contacto</a></li>
+                            <li class="footer__item"><a href="#bienvenida" class="footer_link">Inicio</a></li>
+                            <li class="footer__item"><a href="equipoMedico.html" class="footer_link">Equipo Medico</a>
+                            </li>
+                            <li class="footer__item"><a href="contacto.html" class="footer_link">Contacto</a></li>
                         </ul>
                     </div>
                     <div>
                         <h2>Redes Sociales</h2>
                         <ul>
-                            <li><a href="https://www.facebook.com" target="_blank"><i
-                                        class="fa-brands fa-facebook py-2 mx-2"></i>Facebook</a></li>
-                            <li><a href="https://www.instagram.com" target="_blank"><i
-                                        class="fa-brands fa-instagram py-2 mx-2"></i>Instagram</a></li>
-                            <li><a href="https://www.tiktok.com" target="_blank"><i
-                                        class="fa-brands fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
+                            <li class="footer__item"><a href="https://www.facebook.com" target="_blank"
+                                    class="footer_link"><i class="footer__icon fa-facebook py-2 mx-2"></i>Facebook</a>
+                            </li>
+                            <li class="footer__item"><a href="https://www.instagram.com" target="_blank"
+                                    class="footer_link"><i class="footer__icon fa-instagram py-2 mx-2"></i>Instagram</a>
+                            </li>
+                            <li class="footer__item"><a href="https://www.tiktok.com" target="_blank"
+                                    class="footer_link"><i class="footer__icon fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <hr>
-        <p class="text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
-        <p class="text-center py-0 mx-0">Todos los derechos reservados.</p>
+        <p class="footer__text text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
+        <p class="footer__text text-center py-0 mx-0">Todos los derechos reservados.</p>
     </footer>
     <!-- FIN FOOTER -->
 </body>
+
 </html>

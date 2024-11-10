@@ -18,60 +18,63 @@
 <body>
     <!-- INICIO NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light fw-bold">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img class="LogoMaktub" src="./assets/img/LOGO-Centro-Medico-Maktub.png"
-                    alt="Logo_Centro_Medico_Maktub" width="200" height="auto"> Centro Medico Maktub</a>
+        <div class="navbar__containerbox container-fluid">
+            <a class="navbar__brand" href="#">
+                <img class="navbar__logo" src="./assets/img/LOGO-Centro-Medico-Maktub.png"
+                    alt="Logo_Centro_Medico_Maktub" width="200" height="auto"> Centro Medico Maktub
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <div class="navbar__menubox collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar__list navbar-nav ms-auto">
+                    <li class="navbar__item nav-item">
+                        <a class="navbar__link navbar__link--active nav-link active" aria-current="page"
+                            href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="equipoMedico.html">Equipo Medico</a>
+                    <li class="navbar__item nav-item">
+                        <a class="navbar__link nav-link" href="equipoMedico.html">Equipo Medico</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    <li class="navbar__item nav-item">
+                        <a class="navbar__link nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-primary">Reserva tu cita</button>
+                <button type="button" class="button btn btn-outline-primary">Reserva tu cita</button>
             </div>
         </div>
     </nav>
     <!-- FIN NAVBAR -->
 
     <!-- INICIO FORMULARIO -->
-    <h1 class="container text-center pt-5">
+    <h1 class="form__title container text-center pt-5">
         Comunicate con nosotros o visitanos en nuestra dirección
     </h1>
-    <section class="formulario container pt-3">
+    <section class="form__container formulario container pt-3">
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <h2 class="text-center mt-4">Contacto</h2>
-                <p class="text-center py-3">Si tienes alguna pregunta, no dudes en contactarnos. Estaremos encantados de
+                <h2 class="form_subtitle text-center mt-4">Contacto</h2>
+                <p class="form_text text-center py-3">Si tienes alguna pregunta, no dudes en contactarnos. Estaremos encantados de
                     ayudarte.</p>
                 <img src="./assets/img/LOGO-Centro-Medico-Maktub.png" alt="">
             </div>
             <div class="col-sm-12 col-md-6 mt-4">
                 <form action="">
                     <div class="mb-3">
-                        <label class="form-label" for="nombre">Nombre</label>
-                        <input class="form-control" type="text" placeholder="Nombre" required />
+                        <label class="form__label form-label" for="nombre">Nombre</label>
+                        <input class="form__text form-control" type="text" placeholder="Nombre" required />
                     </div>
                     <div class="mb-3">
-                        <label class="form-label" for="email">Email</label>
-                        <input class="form-control" type="email" placeholder="Email" required />
+                        <label class="form__label form-label" for="email">Email</label>
+                        <input class="form__text form-control" type="email" placeholder="Email" required />
                     </div>
                     <div class="mb-3">
-                        <label class="form-label" for="asunto">Asunto</label>
-                        <textarea class="form-control" id="asunto" rows="1" placeholder="Asunto" required></textarea>
+                        <label class="form__label form-label" for="asunto">Asunto</label>
+                        <textarea class="form__text form-control" id="asunto" rows="1" placeholder="Asunto" required></textarea>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label" for="mensaje">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+                        <label class="form__label form-label" for="mensaje">Mensaje</label>
+                        <textarea class="form__text form-control" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
@@ -81,10 +84,10 @@
     <!-- FIN FORMULARIO -->
     <hr>
     <!-- INICIO MAPA -->
-    <section class="container">
+    <section class="map__container">
         <div class="row">
             <div class="col-sm-12 col-md-6 my-auto">
-                <h2>Visitanos en nuestro cento medico en Concepción</h2>
+                <h2 class="map_title">Visitanos en nuestro cento medico en Concepción</h2>
             </div>
             <div class="col-sm-12 col-md-6 mx-auto">
                 <iframe
@@ -98,48 +101,60 @@
     <hr>
     <!-- INICIO FOOTER -->
     <footer>
-        <div class="container">
+        <div class="footer__container container">
             <div class="row">
-                <div class="col-6 col-bg-12">
-                    <h2 class="pb-4">Contacto</h2>
-                    <ul>
-                        <li><i class="font_icon fa-solid fa-phone py-2 mx-2"></i>Teléfono: +569 xxxx xxxx</li>
-                        <li><i class="font_icon fa-regular fa-envelope py-2 mx-2"></i>Email: contacto@maktub.cl</li>
-                        <li><i class="font_icon fa-solid fa-phone py-2 mx-2"></i>Dirección: Av. XXX 123, Concepción,
+                <div class="footer__section col-6 col-bg-12">
+                    <h2 class="footer__title pb-4">Contacto</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Teléfono: +569 xxxx xxxx
+                        </li>
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-regular fa-envelope py-2 mx-2"></i>Email:
+                            contacto@maktub.cl</li>
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Dirección: Av. XXX 123,
+                            Concepción,
                             Chile</li>
-                        <li><i class="font_icon fa-solid fa-stopwatch py-2 mx-2"></i>Atención: Lunes a Viernes de
+                        <li class="footer__item"><i
+                                class="footer_icon font_icon fa-solid fa-stopwatch py-2 mx-2"></i>Atención: Lunes a
+                            Viernes de
                             8:00 a 20:00.</li>
-                        <li><i class="font_icon fa-solid fa-globe py-2 mx-2"></i>Sitio web: www.centromaktub.cl</li>
+                        <li class="footer__item"><i class="footer_icon font_icon fa-solid fa-globe py-2 mx-2"></i>Sitio
+                            web: www.centromaktub.cl</li>
                     </ul>
                 </div>
-                <div class="col-6 col-bg-12">
+                <div class="footer__section col-6 col-bg-12">
                     <div>
                         <h2>
                             Enlaces a:
                         </h2>
                         <ul>
-                            <li><a href="index.html" class="">Inicio</a></li>
-                            <li><a href="equipoMedico.html" class="">Equipo Medico</a></li>
-                            <li><a href="contacto.html" class="">Contacto</a></li>
+                            <li class="footer__item"><a href="#bienvenida" class="footer_link">Inicio</a></li>
+                            <li class="footer__item"><a href="equipoMedico.html" class="footer_link">Equipo Medico</a>
+                            </li>
+                            <li class="footer__item"><a href="contacto.html" class="footer_link">Contacto</a></li>
                         </ul>
                     </div>
                     <div>
                         <h2>Redes Sociales</h2>
                         <ul>
-                            <li><a href="https://www.facebook.com" target="_blank"><i
-                                        class="fa-brands fa-facebook py-2 mx-2"></i>Facebook</a></li>
-                            <li><a href="https://www.instagram.com" target="_blank"><i
-                                        class="fa-brands fa-instagram py-2 mx-2"></i>Instagram</a></li>
-                            <li><a href="https://www.tiktok.com" target="_blank"><i
-                                        class="fa-brands fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
+                            <li class="footer__item"><a href="https://www.facebook.com" target="_blank"
+                                    class="footer_link"><i class="footer__icon fa-facebook py-2 mx-2"></i>Facebook</a>
+                            </li>
+                            <li class="footer__item"><a href="https://www.instagram.com" target="_blank"
+                                    class="footer_link"><i class="footer__icon fa-instagram py-2 mx-2"></i>Instagram</a>
+                            </li>
+                            <li class="footer__item"><a href="https://www.tiktok.com" target="_blank"
+                                    class="footer_link"><i class="footer__icon fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <hr>
-        <p class="text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
-        <p class="text-center py-0 mx-0">Todos los derechos reservados.</p>
+        <p class="footer__text text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
+        <p class="footer__text text-center py-0 mx-0">Todos los derechos reservados.</p>
     </footer>
     <!-- FIN FOOTER -->
 </body>
