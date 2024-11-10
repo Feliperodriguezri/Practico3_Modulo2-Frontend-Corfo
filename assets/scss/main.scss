@@ -3,12 +3,17 @@
 @import "../../node_modules/bootstrap/scss/variables-dark";
 
 // abtracts
-@import 'abstracts/variables', 'abstracts/custom_boostrap';
+@import 'abstracts/variables', 'abstracts/custom_bootstrap', 'abstracts/mixins';
 // vendor
-@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'vendors/fontawesome';
 // base
+@import 'base/reset', 'base/typography';
 // layout
+@import 'layout/footer', 'layout/navbar';
 // component
+@import 'components/button';
 // page
+@import 'pages/home', 'pages/equipoMedico', 'pages/contacto';
 // themes
 // utilities

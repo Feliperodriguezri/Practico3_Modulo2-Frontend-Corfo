@@ -1,0 +1,11 @@
+.welcome_container {
+    @include center-section(2rem,center);
+}
+
+.services {
+    @include center-section(2rem,center);
+}
+
+.testimonios {
+    @include center-section(2rem,center);
+}

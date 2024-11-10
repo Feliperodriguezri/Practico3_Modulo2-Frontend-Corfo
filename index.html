@@ -11,10 +11,6 @@
     <title>Document</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -32,7 +28,8 @@
             <div class="navbar__menubox collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar__list navbar-nav ms-auto">
                     <li class="navbar__item nav-item">
-                        <a class="navbar__link navbar__link--active nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="navbar__link navbar__link--active nav-link active" aria-current="page"
+                            href="index.html">Home</a>
                     </li>
                     <li class="navbar__item nav-item">
                         <a class="navbar__link nav-link" href="equipoMedico.html">Equipo Medico</a>
@@ -41,7 +38,7 @@
                         <a class="navbar__link nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <button type="button" class="button btn btn-outline-primary">Reserva tu cita</button>
+                <button type="button" class="button">Reserva tu cita</button>
             </div>
         </div>
     </nav>
@@ -76,44 +73,6 @@
         </div>
     </section>
     <hr>
-    <!-- 1.2 carrusel imagenes FALTA BEM-->
-    <section>
-        <div id="carouselExampleIndicators" class="carousel container carousel slide">
-            <div class="carousel-section_indicators carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-section_inner carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/imagen_carrusel1.jpg" class="d-block w-100 object-fit-cover"
-                        alt="Doctor_Atiende_Paciente">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/imagen_carrusel2.jpg" class="d-block w-100 object-fit-cover"
-                        alt="Doctor_con_estetoscopio">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/imagen_carrusel3.jpg" class="d-block w-100 object-fit-cover"
-                        alt="enfermera_con_planilla">
-                </div>
-            </div>
-            <button class="carousel-section__control carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-section__control carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
-    <hr>
 
     <!-- FIN SECCION BIENVENIDA -->
 
@@ -140,23 +99,26 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="card col">
                         <div class="card h-100">
-                            <img src="./assets/img/img_consulta.jpg" class="card__img card-img-top" alt="consulta_medica">
+                            <img src="./assets/img/img_consulta.jpg" class="card__img card-img-top"
+                                alt="consulta_medica">
                             <div class="card__body card-body">
                                 <h5 class="card__title card-title">Consultas</h5>
-                                <p class="card__text card-text">Atención personalizada para diagnóstico y tratamiento general.</p>
-                                <a href="#" class="button btn btn-primary mt-4">ir a consultas</a>
+                                <p class="card__text card-text">Atención personalizada para diagnóstico y tratamiento
+                                    general.</p>
+                                <a href="#" class="button">ir a consultas</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="card col">
                         <div class="card h-100">
-                            <img src="./assets/img/img_urgencia.jpg" class="card__img card-img-top" alt="atencion_urgencia_niño">
+                            <img src="./assets/img/img_urgencia.jpg" class="card__img card-img-top"
+                                alt="atencion_urgencia_niño">
                             <div class="card__body card-body">
                                 <h5 class="card__title card-title">Urgencias</h5>
                                 <p class="card__text card-text">Asistencia inmediata para emergencias disponible 24/7.
                                 </p>
-                                <a href="#" class="button btn btn-primary mt-4">Ir a Urgencias</a>
+                                <a href="#" class="button">Ir a Urgencias</a>
                             </div>
                         </div>
                     </div>
@@ -169,7 +131,7 @@
                                 <h5 class="card__title card-title">Especialidades</h5>
                                 <p class="card__text card-text">Amplia gama de especialidades para un cuidado integral y
                                     especializado.</p>
-                                <a href="#" class="button btn btn-primary mt-4">ir a Especialidades</a>
+                                <a href="#" class="button">ir a Especialidades</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +147,8 @@
         <!-- 3.1 titulo testimonios -->
         <div class="testimonio__box-info container text-center">
             <h2 class="testimonio__title">Testimonios de pacientes</h2>
-            <p class="testimonio__text">Escucha lo que nuestros pacientes tienen que decir sobre su experiencia en nuestro hospital.</p>
+            <p class="testimonio__text">Escucha lo que nuestros pacientes tienen que decir sobre su experiencia en
+                nuestro hospital.</p>
         </div>
         <!-- 3.2 tarjetas testimonios -->
         <article>
@@ -238,13 +201,24 @@
                     <div class="footer__section col-6 col-bg-12">
                         <h2 class="footer__title pb-4">Contacto</h2>
                         <ul class="footer__list">
-                            <li class="footer__item"><i class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Teléfono: +569 xxxx xxxx</li>
-                            <li class="footer__item"><i class="footer_icon font_icon fa-regular fa-envelope py-2 mx-2"></i>Email: contacto@maktub.cl</li>
-                            <li class="footer__item"><i class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Dirección: Av. XXX 123, Concepción,
+                            <li class="footer__item">
+                                <i class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>
+                                Teléfono: +569 xxxx xxxx
+                            </li>
+                            <li class="footer__item"><i
+                                    class="footer_icon font_icon fa-regular fa-envelope py-2 mx-2"></i>Email:
+                                contacto@maktub.cl</li>
+                            <li class="footer__item"><i
+                                    class="footer_icon font_icon fa-solid fa-phone py-2 mx-2"></i>Dirección: Av. XXX
+                                123, Concepción,
                                 Chile</li>
-                            <li class="footer__item"><i class="footer_icon font_icon fa-solid fa-stopwatch py-2 mx-2"></i>Atención: Lunes a Viernes de
+                            <li class="footer__item"><i
+                                    class="footer_icon font_icon fa-solid fa-stopwatch py-2 mx-2"></i>Atención: Lunes a
+                                Viernes de
                                 8:00 a 20:00.</li>
-                            <li class="footer__item"><i class="footer_icon font_icon fa-solid fa-globe py-2 mx-2"></i>Sitio web: www.centromaktub.cl</li>
+                            <li class="footer__item"><i
+                                    class="footer_icon font_icon fa-solid fa-globe py-2 mx-2"></i>Sitio web:
+                                www.centromaktub.cl</li>
                         </ul>
                     </div>
                     <div class="footer__section col-6 col-bg-12">
@@ -253,25 +227,38 @@
                                 Enlaces a:
                             </h2>
                             <ul>
-                                <li class="footer__item"><a href="#bienvenida" class="footer_link">Inicio</a></li>
-                                <li class="footer__item"><a href="equipoMedico.html" class="footer_link">Equipo Medico</a></li>
+                                <li class="footer__item">
+                                    <a href="index.html" class="footer_link">Inicio</a>
+                                </li>
+                                <li class="footer__item"><a href="equipoMedico.html" class="footer_link">Equipo
+                                        Medico</a></li>
                                 <li class="footer__item"><a href="contacto.html" class="footer_link">Contacto</a></li>
                             </ul>
                         </div>
                         <div>
                             <h2>Redes Sociales</h2>
                             <ul>
-                                <li class="footer__item"><a href="https://www.facebook.com" target="_blank" class="footer_link"><i class="footer__icon fa-facebook py-2 mx-2"></i>Facebook</a></li>
-                                <li class="footer__item"><a href="https://www.instagram.com" target="_blank" class="footer_link"><i class="footer__icon fa-instagram py-2 mx-2"></i>Instagram</a></li>
-                                <li class="footer__item"><a href="https://www.tiktok.com" target="_blank" class="footer_link"><i class="footer__icon fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
+                                <li class="footer__item"><a href="https://www.facebook.com" target="_blank"
+                                        class="footer_link"><i
+                                            class="footer__icon fab fa-facebook py-2 mx-2"></i>Facebook</a></li>
+                                <li class="footer__item"><a href="https://www.instagram.com" target="_blank"
+                                        class="footer_link"><i
+                                            class="footer__icon fab fa-instagram py-2 mx-2"></i>Instagram</a></li>
+                                <li class="footer__item">
+                                    <a href="https://www.tiktok.com" target="_blank" class="footer_link">
+                                        <i class="footer__icon fab fa-tiktok py-2 mx-2">
+                                        </i>Tiktok
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
-            <p class="footer__text text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
-            <p class="footer__text text-center py-0 mx-0">Todos los derechos reservados.</p>
+            <div class="footer_box-text">
+                <p class="footer__text text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
+                <p class="footer__text text-center">Todos los derechos reservados.</p>
+            </div>
         </footer>
         <!-- FIN FOOTER -->
 </body>

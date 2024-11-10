@@ -9,10 +9,6 @@
     <link rel="shortcut icon" href="./assets/img/centroFavicon.png" type="image/x-icon">
     <!-- Estilos Propios CSS -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -31,7 +27,7 @@
                 <ul class="navbar__list navbar-nav ms-auto">
                     <li class="navbar__item nav-item">
                         <a class="navbar__link navbar__link--active nav-link active" aria-current="page"
-                            href="#">Home</a>
+                            href="index.html">Home</a>
                     </li>
                     <li class="navbar__item nav-item">
                         <a class="navbar__link nav-link" href="equipoMedico.html">Equipo Medico</a>
@@ -55,8 +51,9 @@
             <div class="col-sm-12 col-md-6">
                 <h2 class="form_subtitle text-center mt-4">Contacto</h2>
                 <p class="form_text text-center py-3">Si tienes alguna pregunta, no dudes en contactarnos. Estaremos encantados de
-                    ayudarte.</p>
-                <img src="./assets/img/LOGO-Centro-Medico-Maktub.png" alt="">
+                    ayudarte.
+                    <img class="" src="./assets/img/LOGO-Centro-Medico-Maktub.png" alt="">
+                </p>
             </div>
             <div class="col-sm-12 col-md-6 mt-4">
                 <form action="">
@@ -76,7 +73,7 @@
                         <label class="form__label form-label" for="mensaje">Mensaje</label>
                         <textarea class="form__text form-control" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="button btn btn-primary">Enviar</button>
                 </form>
             </div>
         </div>
@@ -84,7 +81,7 @@
     <!-- FIN FORMULARIO -->
     <hr>
     <!-- INICIO MAPA -->
-    <section class="map__container">
+    <section class="map__container container">
         <div class="row">
             <div class="col-sm-12 col-md-6 my-auto">
                 <h2 class="map_title">Visitanos en nuestro cento medico en Concepción</h2>
@@ -99,6 +96,7 @@
     </section>
     <!-- FIN MAPA -->
     <hr>
+    
     <!-- INICIO FOOTER -->
     <footer>
         <div class="footer__container container">
@@ -130,7 +128,7 @@
                             Enlaces a:
                         </h2>
                         <ul>
-                            <li class="footer__item"><a href="#bienvenida" class="footer_link">Inicio</a></li>
+                            <li class="footer__item"><a href="index.html" class="footer_link">Inicio</a></li>
                             <li class="footer__item"><a href="equipoMedico.html" class="footer_link">Equipo Medico</a>
                             </li>
                             <li class="footer__item"><a href="contacto.html" class="footer_link">Contacto</a></li>
@@ -140,21 +138,23 @@
                         <h2>Redes Sociales</h2>
                         <ul>
                             <li class="footer__item"><a href="https://www.facebook.com" target="_blank"
-                                    class="footer_link"><i class="footer__icon fa-facebook py-2 mx-2"></i>Facebook</a>
+                                    class="footer_link"><i class="footer__icon fab fa-facebook py-2 mx-2"></i>Facebook</a>
                             </li>
                             <li class="footer__item"><a href="https://www.instagram.com" target="_blank"
-                                    class="footer_link"><i class="footer__icon fa-instagram py-2 mx-2"></i>Instagram</a>
+                                    class="footer_link"><i class="footer__icon fab fa-instagram py-2 mx-2"></i>Instagram</a>
                             </li>
                             <li class="footer__item"><a href="https://www.tiktok.com" target="_blank"
-                                    class="footer_link"><i class="footer__icon fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
+                                    class="footer_link"><i class="footer__icon fab fa-tiktok py-2 mx-2"></i>Tiktok</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <hr>
-        <p class="footer__text text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
-        <p class="footer__text text-center py-0 mx-0">Todos los derechos reservados.</p>
+        <div class="footer_box-text">
+            <p class="footer__text text-center">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
+            <p class="footer__text text-center">Todos los derechos reservados.</p>
+        </div>
     </footer>
     <!-- FIN FOOTER -->
 </body>
