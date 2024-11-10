@@ -11975,6 +11975,7 @@ textarea.form-control-lg {
 
 h1, .h1 {
   font-family: "lato", sans-serif;
+  color: rgb(104, 28, 151);
 }
 
 h2, .h2 {
@@ -12008,6 +12009,10 @@ p {
   justify-content: center;
   padding: 2rem;
   text-align: center;
+}
+
+footer {
+  background-color: rgb(244, 239, 245);
 }
 
 .button {

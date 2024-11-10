@@ -1,3 +1,7 @@
 .footer_container {
     @include center-section(2rem,center);
 }
+
+footer{
+    background-color: $custom-background;
+}
