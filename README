@@ -1,0 +1,32 @@
+# Proyecto practico 3 modulo 2
+## autor: Felipe Rodriguez
+## curso: Front-end Grupo 1
+## Proyecto: contempla la implementacion de BEM, SASS y framework de CSS (Bootstrap) en proyecto de hospital (practico 1 modulo 2)
+
+# Instrucciones para visualizar el proyecto
+## 1 Descargar el archivo zip del proyecto desde el repositorio de GitHub: https://github.com/Feliperodriguezri/Practico3_Modulo2-Frontend-Corfo
+## 2 Descomprimir el archivo en una carpeta local en su computadora.
+## 3 abrir el archivo ejercicio_Practico3_M2_FelipeRodriguez en su computadora
+## 4 instalar Bootstrap con el comando npm install bootstrap en la consola de su computadora ubicada en la carpeta del proyecto descargado.  (si no tiene instalado npm, debe instalarlo primero)
+
+# Estructura del proyecto
+## El proyecto consta de las siguientes carpetas y archivos:
+### 1. carpeta css: contiene los archivos SASS y CSS compilados del proyecto.
+### 2. carpeta img: contiene las imagenes utilizadas en el proyecto.
+### 3. carpeta js: contiene los archivos JavaScript utilizados en el proyecto.
+### 4. carpeta scss: contiene los archivos SASS del proyecto, organizados en subcarpetas según su funcionalidad (base, layout, components, pages, themes, abstracts).
+### 5. archivo index.html: es la página principal del proyecto, que incluye la estructura HTML y los enlaces a los archivos CSS y JavaScript necesarios para su funcionamiento.
+### 6. archivo package.json: es un archivo de configuración de Node.js que contiene información sobre el proyecto, como su nombre, versión, dependencias, etc.
+
+# Implementacion de BEM, SASS y framework de CSS (Bootstrap) en proyecto de hospital (practico 3 modulo 2)
+## El proyecto utiliza la metodología BEM (Block, Element, Modifier) para organizar y nombrar las clases CSS de manera consistente y fácil de entender. Además, se utiliza SASS para escribir código CSS más eficiente y modular, y se incluye el framework de CSS Bootstrap para acelerar el desarrollo y mejorar la apariencia del proyecto.
+
+# Explicacion de como se modularizacion los estilos con SASS, BEM y Bootstrap en el proyecto de hospital (practico 3 modulo 2)
+## 1. Se crearon archivos SASS separados para cada sección del proyecto, como el encabezado, el pie de página, las secciones principales, etc. Esto permite una mejor organización y mantenimiento del código CSS, y facilita la reutilización de estilos en diferentes partes del proyecto.
+## 2. Se utilizó la metodología BEM para nombrar las clases CSS de manera consistente y fácil de entender. Cada bloque (block) se nombra con un nombre significativo, y los elementos (element) y modificadores (modifier) se separan con dos guiones bajos y un guión, respectivamente.
+## 3. Se utilizaron variables de SASS para definir colores, fuentes, tamaños, etc., y se reutilizaron en diferentes partes del proyecto. Esto permite una mayor coherencia visual y facilita la actualización de estilos en todo el proyecto con un solo cambio en el código SASS.
+## 4. Se utilizaron mixins de SASS para definir estilos comunes que se pueden reutilizar en diferentes partes del proyecto. Por ejemplo, se creó un mixin para aplicar a centrados de item y padding de secciones
+## 5. Se utilizó el framework de CSS Bootstrap para acelerar el desarrollo y mejorar la apariencia del proyecto. Se incluyeron componentes de Bootstrap como tarjetas y botones y se personalizaron sus estilos con SASS para que se integraran con el diseño general del proyecto.
+
+
+
